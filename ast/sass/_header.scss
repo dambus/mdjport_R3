@@ -65,7 +65,7 @@ img.mobile-nav-items--logo {
   align-items: center;
   justify-content: space-between;
   margin: 2rem auto !important;
-  padding: 1rem;
+  padding: 1rem 0rem;
   background-color: $gunmetal;
   border: none;
   @include md {
@@ -111,6 +111,10 @@ img.mobile-nav-items--logo {
       @include lg {
         width: 7rem;
       }
+    }
+
+    &__item:last-child {
+      margin-right: 0;
     }
 
     .btn__nav {

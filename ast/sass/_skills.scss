@@ -1,13 +1,12 @@
 .skills__box {
-  margin-top: 8vw;
-  width: 100%;
+  // margin-top: 8vw;
+  // width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   @include md {
-    margin-top: 4vw;
     justify-content: flex-start;
   }
   &--skill-icon {
@@ -15,7 +14,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    // padding: 0rem 0.2rem;
+
     font-size: 3rem;
     flex-grow: 1;
     margin-bottom: 2rem;
@@ -28,27 +27,15 @@
 %badge {
   position: absolute;
 
-  top: -20%;
-  right: 15%;
+  top: -10%;
+  left: 0px;
+  // width: auto;
   font-size: 20%;
   font-weight: 400;
   color: white;
   padding: 2% 6%;
   border-radius: 6px;
   transform: rotate(10deg);
-
-  @include md {
-    right: 5%;
-  }
-  @include lg {
-    right: 5%;
-  }
-  @include xl {
-    right: 10%;
-  }
-  @include rwd(1200px) {
-    right: 15%;
-  }
 }
 
 .badge_good {

@@ -16,9 +16,10 @@
       src="https://kit.fontawesome.com/c9219fe591.js"
       crossorigin="anonymous"
     ></script>
-    <script type="module" src="ast/js/main.js"></script>
-    <script type="module" src="ast/js/popProjects.js"></script>
-    <script type="module" src="ast/js/modal.js"></script>
+    <script type="text/javascript"src="ast/json/projects.json"></script>
+    <script type="module" src="ast/js/main_es5.js"></script>
+    <script type="module" src="ast/js/popProjects_es5.js"></script>
+    <script type="module" src="ast/js/modal_es5.js"></script>
 
     <link rel="stylesheet" href="ast/css/main.css" />
   </head>
@@ -142,26 +143,26 @@
       </div>
     </header>
     <section id="welcome" class="container">
-      <div class="landing">
-        <div class="landing--upper">
-          <div class="landing--upper-left">
-            <img
-              src="ast/img/landing-image.png"
-              alt="laptop with code and coffee illustration"
-              class=""
-            />
-          </div>
-          <div class="landing--upper-right">
-            <h4>hi, my name is</h4>
-            <h1 class="mb-4"><span>Milan</span></h1>
-            <h1>
-              I <span>DESIGN</span> and <br />
-              <span>CODE</span> beautifull <br />
-              <span>STUFF</span> for web
-            </h1>
+      <div class="v-spacer"></div>
+      <div class="row hero">
+        <div class="col-xs-12 col-md-6">
+          <img src="ast/img/coding_laptop_coffee.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-xs-12 col-md-6 text-center text-sm-start">
+          <h4 class="fw-light">hi, my name is</h4>
+          <h1 class="text-uppercase display-2 lh-1"><span class="fw-bold">Milan</span> <small>and</small><br>i <span class="fw-bold">design</span> and <br><span class="fw-bold">code</span> cool <br> <span class="fw-bold">stuff </span>for web</h1>
+          <div class="col-12 cta">
+            <a
+              href="#work"
+              class="link-btn mt-3 mx-auto mx-sm-0 text-center text-sm-start w-50"
+              >see my work<span><i class="fa-solid fa-circle-arrow-right"></i></span
+            ></a>
+           
           </div>
         </div>
+
       </div>
+      
     </section>
     <section id="work" class="work container">
       <div class="section__heading">
@@ -179,10 +180,10 @@
       <div class="section__content container">
         <div class="row">
           <div class="col-xs-12 col-md-6 text-end">
-            <h4>considered to be:</h4>
-            <h1 class="display-2 fw-bold">CREATIVE</h1>
-            <h1 class="display-2 fw-bold"><small class="fw-light">SOMEWHAT</small> TALENTED</h1>
-            <h1 class="display-2 fw-bold">
+            <h4 class="fw-light">considered to be:</h4>
+            <h1 class="display-2">CREATIVE</h1>
+            <h1 class="display-2"><small class="fw-light">SOMEWHAT</small> TALENTED</h1>
+            <h1 class="display-2">
               OUT OF THE BOX <br />
               THINKER
             </h1>
@@ -197,7 +198,7 @@
         </div>
         <div class="row mt-3 mt-xs-5 d-flex">
           <div class="col-xs-12 col-md-6 text-end">
-            <h5>great communicator with:</h5>
+            <h4 class="fw-light">great communicator with:</h4>
             <h2 class="display-2 ">COMPUTERS,</h1>
             <h2 class="display-2">GOOGLE</h1>
             <h1 class="d-inline display-2"><small>AND </small>MOST HUMANS</h1>
@@ -209,105 +210,82 @@
           </div>
          
         </div>
-        <!-- <div class="row">
-          <div class="col-xs-12 col-md-6 content-text-r">
-            <h4>considered to be:</h4>
-            <h1>CREATIVE</h1>
-            <h1><small>SOMEWHAT</small> TALENTED</h1>
-            <h1>
-              OUT OF THE BOX <br />
-              THINKER
-            </h1>
-            <div class="v-spacer"></div>
-            <h4>great communicator with:</h4>
-            <h1>COMPUTERS</h1>
-            <h1>GOOGLE</h1>
-            <h1>MOST HUMANS</h1>
-            <div class="v-spacer"></div>
+        <div class="row d-flex mt-5">
+          <div class="v-spacer"></div>
+          <div class="col-6 offset-3 mt-5 mb-3">
+            <h4 class="fw-light text-center text-sm-end">Oh, yeah</h4>
+            <h2 class="display-4 text-center text-sm-end text-uppercase">I also know a <span class="fw-bold">few things</span> about</h2>
           </div>
-          <div class="col-xs-12 col-md-6">
-            <div class="gal">
-              <div class="gal__1-1">
-                <img src="ast/img/idea_bulb.png" alt="" />
-              </div>
-              <div class="gal__1-2">
-                <img src="ast/img/box-guy.png" alt="" />
-              </div>
-              <div class="gal__2-1">
-                <img src="ast/img/image 3.png" alt="" />
-              </div>
-            </div>
-          </div> -->
-          <!-- <div class="spacer my-5"></div>
-          <div class="row">
-            <div class="col-xs-12 col-md-6 offset-md-3 content-text-r mt-5">
-              <h4>oh, yeah, I also</h4>
-              <h1>KNOW FEW THINGS ABOUT</h1>
-              <div class="tech-icons">
-                <div class="skills__box">
-                  <div class="skills__box--skill-icon">
-                    <div class="badge_good">
-                      <i class="fa-solid fa-thumbs-up"></i>
-                    </div>
-                    <i class="fa-brands fa-html5"></i>
-                  </div>
-                  <div class="skills__box--skill-icon">
-                    <div class="badge_good">
-                      <i class="fa-solid fa-thumbs-up"></i>
-                    </div>
-                    <i class="fa-brands fa-css3-alt"></i>
-                  </div>
-                  <div class="skills__box--skill-icon">
-                    <i class="fa-brands fa-sass"></i>
-                  </div>
-                  <div class="skills__box--skill-icon">
-                    <div class="badge_ok">
-                      <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                    <i class="fa-brands fa-square-js"></i>
-                  </div>
-                  <div class="skills__box--skill-icon">
-                    <div class="badge_learning">
-                      <i class="fa-solid fa-graduation-cap"></i>
-                    </div>
-                    <i class="fa-brands fa-react"></i>
-                  </div>
-                  <div class="skills__box--skill-icon">
-                    <i class="fa-brands fa-figma"></i>
-                  </div>
+          <div class="tech-icons col-10 offset-1 col-sm-6 offset-sm-3">
+            <div class="skills__box">
+              <div class="skills__box--skill-icon">
+                <div class="badge_good">
+                  <i class="fa-solid fa-thumbs-up"></i>
                 </div>
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <div class="skills__box--skill-icon">
+                <div class="badge_good">
+                  <i class="fa-solid fa-thumbs-up"></i>
+                </div>
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <div class="skills__box--skill-icon">
+                <i class="fa-brands fa-sass"></i>
+              </div>
+              <div class="skills__box--skill-icon">
+                <div class="badge_ok">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <i class="fa-brands fa-square-js"></i>
+              </div>
+              <div class="skills__box--skill-icon">
+                <div class="badge_learning">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <i class="fa-brands fa-react"></i>
+              </div>
+              <div class="skills__box--skill-icon">
+                <i class="fa-brands fa-figma"></i>
               </div>
             </div>
-          </div>
         </div>
-      </div> -->
+        
     </section>
     <section id="about" class="skills container">
       <div class="section__heading">
         <h1>about.</h1>
       </div>
-      <div class="section__content row">
+      <div class="section__content row d-flex">
         <div class="col-xs-12 col-md-6">
-          <img src="ast/img/dev_meeting.png" alt="" class="shadowed" />
+          <img src="ast/img/dev_meeting.png" alt="" class="shadowed img-fluid" />
         </div>
-        <div class="col-xs-12 col-md-6 content-text-l mt-5">
-          <h4>Hello everyone,</h4>
-          <h1>
-            My name is <span>MILAN</span> and I'm a <span>DEVELOPER</span>,
-            <span>GAMER</span> and a <span>GEEK</span>
+        <div class="col-xs-12 col-md-6">
+          <h4 class="fw-light">Hello everyone,</h4>
+          <h1 class="text-uppercase text-start display-3 lh-1">
+            My name is <br> <span class="fw-bold">MILAN</span> and I'm a <span class="fw-bold">DEVELOPER</span>,
+            <span class="fw-bold">GAMER</span> and a <span class="fw-bold">GEEK</span>
           </h1>
-          <h6>[ AA meeting vibes... ]</h6>
+          <!-- <h6>[ AA meeting vibes... ]</h6> -->
+          <figure>
+            <!-- <blockquote class="blockquote">
+              <p>A well-known quote, contained in a blockquote element.</p>
+            </blockquote> -->
+            <figcaption class="blockquote-footer mt-1">
+              So much AA meeting vibe here...
+            </figcaption>
+          </figure>
         </div>
         <div class="col-xs-12 col-sm-6 offset-md-6 mt-3 content-text-l">
-          <h4>I like to create interesting things for web.</h4>
-          <p class="">
+          <h4 class="display-6">I like to create interesting things for web.</h4>
+          <p class="justify">
             <br />
             While i don't lack creativity, I may lack a bit of professional
             experience. Going to change that soon. I've started playing with
             HTML and CSS in early 2000's, but life took me on a totally
             different path. Although, love for design and web development never
-            faded. If you are interested to learn more about me, or want to talk
-            about your next project, follow links below.
+            faded. <br> If you are interested to learn more about me, or want to talk
+            about your next project, check out links below.
           </p>
           <div class="v-spacer"></div>
           <a
