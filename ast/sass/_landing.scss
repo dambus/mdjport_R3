@@ -1,10 +1,18 @@
 .hero {
-  border-radius: 6rem;
-  background: linear-gradient(180deg, #282a73 25%, #262b64 50%, #202d3a 75%);
+  padding-bottom: 3rem;
+  box-shadow: 6px 3px 0px 0px rgba(148, 209, 190, 0.1);
+  -webkit-box-shadow: 6px 3px 0px 0px rgba(148, 209, 190, 0.1);
+  -moz-box-shadow: 6px 3px 0px 0px rgba(148, 209, 190, 0.1);
+  background-color: rgba($ash-gray, 0.1);
+  background: linear-gradient(
+    180deg,
+    $gunmetal 33%,
+    rgba($ash-gray, 0.1) 75%,
+    rgba($ash-gray, 0.3) 100%
+  );
 
   & > :first-child {
     margin-top: 2rem;
-    border-radius: 2rem;
   }
 
   & > :nth-child(2) {
@@ -24,6 +32,12 @@
 
   @include sm {
     padding-top: 5rem;
-    background: linear-gradient(180deg, #282a73 45%, #262b64 60%, #202d3a 70%);
+    background-color: rgba($ash-gray, 0.1);
+    background: linear-gradient(
+      90deg,
+      $gunmetal 33%,
+      rgba($ash-gray, 0.1) 75%,
+      rgba($ash-gray, 0.3) 100%
+    );
   }
 }
