@@ -1,9 +1,5 @@
 #modalContent {
   .modal-body {
-    // padding: 1rem;
-    min-height: 85vh;
-    background: linear-gradient(180deg, #282a73 50%, #262b64 55%, #202d3a 65%);
-
     &--container {
       width: 100%;
       // padding: 1rem;
@@ -15,43 +11,30 @@
         .landing-pic {
           position: relative;
           img {
-            // position: relative;
-            max-height: 50vh;
-            @include sm {
-              // height: 25%;
-              max-height: 50vh;
-              border-radius: 16px;
-              filter: blur(1px);
-              object-position: 10% 25%;
-              object-fit: cover;
-            }
+            max-height: 66vh;
             width: 100%;
             object-fit: cover;
             margin: 0 auto;
-          }
-          .landing-pic--heading {
-            h1 {
-              font-size: 3rem;
-            }
-            // margin: -55% 10% 10% 45%;
-            position: absolute;
-            bottom: 0.75rem;
-            width: 66%;
-            right: 0.75rem;
-            border: 1px solid rgba($tiffany-blue, 0.3);
-            text-align: right;
-            background-color: rgba($gunmetal, 0.66);
-            padding: 8px;
-            @include md {
-              width: 88%;
-              left: 0.66rem;
-              // margin: 0;
-              // position: relative;
-              // margin-top: -4.6rem;
-              // margin-right: 2rem;
-              // padding-right: 2rem;
+            @include sm {
+              object-fit: contain;
             }
           }
+          // .landing-pic--heading {
+          //   h1 {
+          //     font-size: 3rem;
+          //   }
+          //   // margin: -55% 10% 10% 45%;
+          //   position: relative;
+
+          //   border: 1px solid rgba($tiffany-blue, 0.3);
+          //   text-align: right;
+          //   background-color: rgba($gunmetal, 0.66);
+          //   padding: 8px;
+          //   @include md {
+          //     width: 88%;
+          //     left: 0.66rem;
+          //   }
+          // }
         }
       }
 

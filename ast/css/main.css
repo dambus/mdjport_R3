@@ -818,10 +818,6 @@ p.card-body {
   padding: 0;
   margin: 0;
 }
-#modalContent .modal-body {
-  min-height: 85vh;
-  background: linear-gradient(180deg, #282a73 50%, #262b64 55%, #202d3a 65%);
-}
 #modalContent .modal-body--container {
   width: 100%;
 }
@@ -837,37 +833,14 @@ p.card-body {
   position: relative;
 }
 #modalContent .modal-body--container .modal-cover .landing-pic img {
-  max-height: 50vh;
+  max-height: 66vh;
   width: 100%;
   object-fit: cover;
   margin: 0 auto;
 }
 @media (min-width: 576px) {
   #modalContent .modal-body--container .modal-cover .landing-pic img {
-    max-height: 50vh;
-    border-radius: 16px;
-    filter: blur(1px);
-    object-position: 10% 25%;
-    object-fit: cover;
-  }
-}
-#modalContent .modal-body--container .modal-cover .landing-pic .landing-pic--heading {
-  position: absolute;
-  bottom: 0.75rem;
-  width: 66%;
-  right: 0.75rem;
-  border: 1px solid rgba(148, 209, 190, 0.3);
-  text-align: right;
-  background-color: rgba(32, 45, 58, 0.66);
-  padding: 8px;
-}
-#modalContent .modal-body--container .modal-cover .landing-pic .landing-pic--heading h1 {
-  font-size: 3rem;
-}
-@media (min-width: 768px) {
-  #modalContent .modal-body--container .modal-cover .landing-pic .landing-pic--heading {
-    width: 88%;
-    left: 0.66rem;
+    object-fit: contain;
   }
 }
 #modalContent .modal-body--container .modal-first-row {
