@@ -568,6 +568,18 @@ img.mobile-nav-items--logo {
   transition: none !important;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
+.color-redwood {
+  color: #aa5042;
+}
+
+.bg-redwood {
+  background-color: #aa5042;
+}
+
 .cards {
   margin-top: 5rem;
   display: flex;
@@ -731,9 +743,9 @@ p.card-body {
   justify-content: center;
   align-items: center;
   position: relative;
-  font-size: 3rem;
+  font-size: 2rem;
   flex-grow: 1;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 @media (min-width: 768px) {
   .skills__box--skill-icon {
