@@ -242,6 +242,7 @@ article {
   text-transform: uppercase;
   margin: 0 auto;
   margin-left: -6px !important;
+  margin-bottom: 6px;
   width: 100%;
 }
 @media (min-width: 576px) {
@@ -829,6 +830,9 @@ p.card-body {
 #modalContent .modal-body--container .modal-cover {
   margin-top: 0;
 }
+#modalContent .modal-body--container .modal-cover--about {
+  background: #bbe1fa;
+}
 #modalContent .modal-body--container .modal-cover .landing-pic {
   position: relative;
 }
@@ -836,7 +840,6 @@ p.card-body {
   max-height: 66vh;
   width: 100%;
   object-fit: cover;
-  margin: 0 auto;
 }
 @media (min-width: 576px) {
   #modalContent .modal-body--container .modal-cover .landing-pic img {
@@ -844,22 +847,23 @@ p.card-body {
   }
 }
 #modalContent .modal-body--container .modal-first-row {
-  margin-top: 25%;
+  margin-top: 3vh;
+  background: linear-gradient(45deg, #202d3a 33%, rgba(157, 181, 178, 0.1) 80%, rgba(157, 181, 178, 0.3) 95%);
 }
 @media (min-width: 576px) {
   #modalContent .modal-body--container .modal-first-row {
-    margin-top: 15%;
+    margin-top: 6vh;
   }
-}
-#modalContent h1 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  font-weight: 600;
 }
 #modalContent h4 {
   font-weight: 100;
 }
+#modalContent .row-card {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(88, 125, 113, 0.3);
+}
 #modalContent .row-card h1 {
+  text-transform: lowercase;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -876,15 +880,29 @@ p.card-body {
 }
 @media (min-width: 768px) {
   #modalContent .row-card .image-rounded {
-    justify-content: end;
-    padding-right: 5rem;
+    justify-content: center;
+    padding-right: 3rem;
   }
 }
 #modalContent .row-card .image-rounded img {
-  width: 10rem;
-  height: 10rem;
-  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
   object-fit: cover;
+}
+@media (min-width: 768px) {
+  #modalContent .row-card .image-rounded img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+  }
+}
+#modalContent .row-card p {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #modalContent .row-card p {
+    text-align: start;
+  }
 }
 #modalContent .modal-footer {
   border-top: none;
@@ -928,9 +946,61 @@ p.card-body {
   }
 }
 
-.contact-form {
-  background-color: #202d3a;
-  width: 100%;
+#contactForm {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  #contactForm {
+    margin-top: 2rem;
+  }
+}
+#contactForm label {
+  font-weight: 100;
+}
+#contactForm input,
+#contactForm textarea {
+  background-color: rgba(88, 125, 113, 0.1);
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 0;
+  margin-top: 1px;
+}
+#contactForm input::placeholder,
+#contactForm textarea::placeholder {
+  color: rgba(218, 240, 238, 0.66);
+}
+#contactForm input:focus,
+#contactForm textarea:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: none;
+  margin-top: 0px;
+}
+#contactForm input:focus::placeholder,
+#contactForm textarea:focus::placeholder {
+  color: rgba(218, 240, 238, 0.25);
+}
+#contactForm button {
+  color: white;
+  max-width: 95%;
+  margin: 0 auto;
+  background-color: rgba(88, 125, 113, 0.075);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  outline: none;
+}
+#contactForm button:hover {
+  background-color: rgba(88, 125, 113, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.075);
+  transition: all 0.25s;
+}
+#contactForm input {
+  padding: 0.5rem 1rem 0.25rem;
+}
+#contactForm textarea {
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */

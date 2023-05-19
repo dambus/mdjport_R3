@@ -1,6 +1,55 @@
-.contact-form {
-  background-color: $gunmetal;
-  width: 100%;
+#contactForm {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  @include md {
+    margin-top: 2rem;
+  }
 
-  // min-height: 90vh;
+  label {
+    font-weight: 100;
+  }
+  input,
+  textarea {
+    background-color: rgba($hookers-green, 0.1);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 0;
+    margin-top: 1px;
+    &::placeholder {
+      // text-transform: uppercase;
+      color: rgba($light-cyan, 0.66);
+    }
+    // box-shadow: 1px 1px 1px gray;
+    &:focus {
+      border: none;
+      outline: none;
+      border-bottom: 1px solid rgba(white, 0.5);
+      box-shadow: none;
+      margin-top: 0px;
+      &::placeholder {
+        color: rgba($light-cyan, 0.25);
+      }
+    }
+  }
+  button {
+    color: white;
+    max-width: 95%;
+    margin: 0 auto;
+    // background-color: $gunmetal;
+    background-color: rgba($hookers-green, 0.075);
+    border: 1px solid rgba(white, 0.15);
+    outline: none;
+    &:hover {
+      background-color: rgba($hookers-green, 0.15);
+      border: 1px solid rgba(white, 0.075);
+      transition: all 0.25s;
+    }
+  }
+  input {
+    padding: 0.5rem 1rem 0.25rem;
+  }
+  textarea {
+    padding: 1rem;
+  }
 }

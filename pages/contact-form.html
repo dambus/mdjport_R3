@@ -1,8 +1,8 @@
 <div class="modal-body--container">
   <div class="row modal-first-row g-5">
     <div class="col-md-6 text-end">
-      <h1>Send me your toughts</h1>
-      <h4>Or just say Hi!</h4>
+      <h1 class="display-3 text-uppercase lh-1">Send me your toughts</h1>
+      <h5 class="fw-light display-6 text-muted">Or just say Hi!</h5>
     </div>
     <div class="col-md-6 text-start">
       <p>
@@ -14,14 +14,14 @@
     </div>
   </div>
   <div class="v-spacer"></div>
-  <form class="row g-3" action="https://formsubmit.co/9b1a97b0131ba75f1ea410d2f706f93b" method="POST">
+  <form id="contactForm" class="row g-3" action="https://formsubmit.co/9b1a97b0131ba75f1ea410d2f706f93b" method="POST">
     <!--Honeypot-->
     <input type="text" name="_honey" style="display: none;">
 
     <!-- DIsable Captcha -->
     <input type="hidden" name="_captcha" value="false">
-    <div class="col-md-6 mb-2">
-      <label for="firstName" class="form-label">First Name</label>
+    <div class="col-md-3 offset-md-3 mb-2">
+      <!-- <label for="firstName" class="form-label">First Name</label> -->
       <input
       name="Name"
         type="text"
@@ -29,10 +29,12 @@
         id="firstName"
         aria-describedby=""
         required
+        placeholder="First Name"
+
       />
     </div>
-    <div class="col-md-6 mb-2">
-      <label for="lastName" class="form-label">Last Name</label>
+    <div class="col-md-3 mb-2">
+      <!-- <label for="lastName" class="form-label" >Last Name</label> -->
       <input
       name="Last&nbsp;Name"
         type="text"
@@ -40,10 +42,11 @@
         id="lastName"
         aria-describedby=""
         required
+        placeholder="Last Name"
       />
     </div>
-    <div class="col-md-8 mb-2">
-      <label for="eMail" class="form-label">Email</label>
+    <div class="col-md-4 offset-md-3 mb-2">
+      <!-- <label for="eMail" class="form-label">Email</label> -->
       <input
       name="email"
         type="email"
@@ -51,24 +54,28 @@
         id="eMail"
         aria-describedby="emailHelp"
         required
+        placeholder="e-mail"
+
       />
       <div id="emailHelp" class="form-text">
-        We'll never share your email with anyone else.
+        I'll never wilingly share your email with anyone else.
       </div>
     </div>
-    <div class="col-md-4 mb-2">
-      <label for="phoneNumber" name="Phone Number" class="form-label">Phone Number</label>
+    <div class="col-md-2 mb-2">
+      <!-- <label for="phoneNumber" name="Phone Number" class="form-label">Phone Number</label> -->
       <input
       name="Phone"
         type="text"
         class="form-control"
         id="phoneNumber"
         aria-describedby=""
+        placeholder="Phone"
+
       />
     </div>
-    <div class="col-md-12">
-      <label for="yourText" class="form-label">Your Text</label>
-      <textarea class="col-12" id="yourText" rows="5" name="Sent&nbsp;text" required></textarea>
+    <div class="col-md-6 offset-md-3">
+      <!-- <label for="yourText" class="form-label">Your Text</label> -->
+      <textarea class="col-12" id="yourText" rows="5" name="Sent&nbsp;text" required placeholder="Your message"  ></textarea>
     </div>
-    <button type="submit" class="btn btn-primary col-md-6 offset-md-6">Submit</button>
+    <button type="submit" class="btn col-md-4 offset-md-4 mt-3">Send</button>
 </div>

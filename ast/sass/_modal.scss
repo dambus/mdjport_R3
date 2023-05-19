@@ -2,11 +2,13 @@
   .modal-body {
     &--container {
       width: 100%;
-      // padding: 1rem;
       @include sm {
         padding: 1rem 1rem;
       }
       .modal-cover {
+        &--about {
+          background: #bbe1fa;
+        }
         margin-top: 0;
         .landing-pic {
           position: relative;
@@ -14,48 +16,37 @@
             max-height: 66vh;
             width: 100%;
             object-fit: cover;
-            margin: 0 auto;
+            // margin: 0 auto;
             @include sm {
               object-fit: contain;
             }
           }
-          // .landing-pic--heading {
-          //   h1 {
-          //     font-size: 3rem;
-          //   }
-          //   // margin: -55% 10% 10% 45%;
-          //   position: relative;
-
-          //   border: 1px solid rgba($tiffany-blue, 0.3);
-          //   text-align: right;
-          //   background-color: rgba($gunmetal, 0.66);
-          //   padding: 8px;
-          //   @include md {
-          //     width: 88%;
-          //     left: 0.66rem;
-          //   }
-          // }
         }
       }
 
       .modal-first-row {
-        margin-top: 25%;
+        margin-top: 3vh;
+        background: linear-gradient(
+          45deg,
+          $gunmetal 33%,
+          rgba($ash-gray, 0.1) 80%,
+          rgba($ash-gray, 0.3) 95%
+        );
         @include sm {
-          margin-top: 15%;
+          margin-top: 6vh;
         }
       }
     }
   }
-  h1 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    font-weight: 600;
-  }
+
   h4 {
     font-weight: 100;
   }
   .row-card {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba($hookers-green, 0.3);
     h1 {
+      text-transform: lowercase;
       text-align: center;
       margin-bottom: 1rem;
       @include md {
@@ -69,14 +60,25 @@
       justify-content: center;
       align-items: center;
       @include md {
-        justify-content: end;
-        padding-right: 5rem;
+        justify-content: center;
+        padding-right: 3rem;
       }
       img {
-        width: 10rem;
-        height: 10rem;
-        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;
+        // border-radius: 50%;
         object-fit: cover;
+        @include md {
+          width: 10rem;
+          height: 10rem;
+          border-radius: 50%;
+        }
+      }
+    }
+    p {
+      text-align: center;
+      @include md {
+        text-align: start;
       }
     }
   }
