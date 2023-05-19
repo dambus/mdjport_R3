@@ -257,18 +257,18 @@ article {
   color: rgba(148, 209, 190, 0.66);
   font-size: 0.8125rem;
   margin-left: 6px;
-  transform-origin: left;
+  transform-origin: bottom;
   transform: translateX(0);
   transition: all 0.25s ease;
-  top: 31.5%;
+  top: 26%;
 }
 .link-btn:hover {
-  transition: all 0.25s ease;
+  transition: all 0.2s;
   color: #9db5b2;
 }
 .link-btn:hover i {
   color: #94d1be;
-  transform: translateX(6px) scale(1.2);
+  transform: translateX(6px) scale(1.1);
   top: 31%;
 }
 
@@ -348,14 +348,15 @@ img.mobile-nav-items--logo {
   }
 }
 .header__logo {
+  max-height: 3rem;
   margin: 0 auto;
-  height: 4.6rem;
   display: block;
 }
 @media (min-width: 768px) {
   .header__logo {
     margin-left: 4rem;
     margin-top: 0;
+    max-height: 5rem;
   }
   .header__logo .small {
     width: 1rem;
@@ -462,8 +463,8 @@ img.mobile-nav-items--logo {
 }
 .header .nav__mobile--menu-icon .toggle-menu {
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   margin: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
   display: flex;
@@ -477,21 +478,21 @@ img.mobile-nav-items--logo {
 .header .nav__mobile--menu-icon .toggle-menu span {
   position: absolute;
   width: 35px;
-  height: 4px;
+  height: 3px;
   background: #202d3a;
-  border-radius: 4px;
+  border-radius: 2px;
   cursor: pointer;
   transition: 0.5s;
 }
 .header .nav__mobile--menu-icon .toggle-menu span:nth-child(1) {
   transform: translateY(-8px);
-  width: 25px;
-  left: 8px;
+  width: 20px;
+  left: 0px;
 }
 .header .nav__mobile--menu-icon .toggle-menu span:nth-child(2) {
   transform: translateY(8px);
-  width: 20px;
-  left: 8px;
+  width: 15px;
+  left: 0px;
 }
 .header .nav__mobile--menu-icon .mob-active span:nth-child(3) {
   transform: translateX(60px);
@@ -594,7 +595,6 @@ img.mobile-nav-items--logo {
   background-color: rgba(32, 45, 58, 0.3);
   background-blend-mode: darken;
   color: white;
-  max-height: 75vh;
   outline: none;
   border: none;
   margin-bottom: 3rem;
@@ -887,13 +887,13 @@ p.card-body {
 #modalContent .row-card .image-rounded img {
   width: 6rem;
   height: 6rem;
+  border-radius: 50%;
   object-fit: cover;
 }
 @media (min-width: 768px) {
   #modalContent .row-card .image-rounded img {
     width: 10rem;
     height: 10rem;
-    border-radius: 50%;
   }
 }
 #modalContent .row-card p {

@@ -257,18 +257,18 @@ article {
   color: rgba(148, 209, 190, 0.66);
   font-size: 0.8125rem;
   margin-left: 6px;
-  transform-origin: left;
+  transform-origin: bottom;
   transform: translateX(0);
   transition: all 0.25s ease;
-  top: 31.5%;
+  top: 26%;
 }
 .link-btn:hover {
-  transition: all 0.25s ease;
+  transition: all 0.2s;
   color: #9db5b2;
 }
 .link-btn:hover i {
   color: #94d1be;
-  transform: translateX(6px) scale(1.2);
+  transform: translateX(6px) scale(1.1);
   top: 31%;
 }
 

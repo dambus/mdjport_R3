@@ -261,7 +261,6 @@ article {
 }
 
 .link-btn {
-  // border: 1px solid white;
   position: relative;
 
   display: flex;
@@ -288,19 +287,19 @@ article {
     color: rgba($tiffany-blue, 0.66);
     font-size: 0.8125rem;
     margin-left: 6px;
-    transform-origin: left;
+    transform-origin: bottom;
     transform: translateX(0);
     transition: all 0.25s ease;
-    top: 31.5%;
+    top: 26%;
   }
 
   &:hover {
-    transition: all 0.25s ease;
+    transition: all 0.2s;
     color: $ash-gray;
 
     i {
       color: rgba($tiffany-blue, 1);
-      transform: translateX(6px) scale(1.2);
+      transform: translateX(6px) scale(1.1);
       top: 31%;
     }
   }
