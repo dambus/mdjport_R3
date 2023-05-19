@@ -9,6 +9,11 @@
         &--about {
           background: #bbe1fa;
         }
+
+        &--404 {
+          background-color: white;
+          max-height: 44vh;
+        }
         margin-top: 0;
         .landing-pic {
           position: relative;

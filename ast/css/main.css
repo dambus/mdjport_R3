@@ -64,8 +64,8 @@ select {
     scroll-behavior: auto;
   }
   *,
-*::before,
-*::after {
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
@@ -840,6 +840,10 @@ p.card-body {
 #modalContent .modal-body--container .modal-cover--about {
   background: #bbe1fa;
 }
+#modalContent .modal-body--container .modal-cover--404 {
+  background-color: white;
+  max-height: 44vh;
+}
 #modalContent .modal-body--container .modal-cover .landing-pic {
   position: relative;
 }
@@ -948,7 +952,7 @@ p.card-body {
 
 @media (min-width: 576px) {
   .modal-dialog,
-.modal-content {
+  .modal-content {
     min-width: 80vw;
   }
 }
