@@ -115,6 +115,14 @@ img.mobile-nav-items--logo {
       }
     }
 
+    &__item:nth-child(5),
+    &__item:nth-child(6) {
+      margin: 0 auto;
+      padding: 0;
+      width: 3rem;
+      margin-top: 6px;
+    }
+
     &__item:last-child {
       margin-right: 0;
     }
