@@ -64,8 +64,8 @@ select {
     scroll-behavior: auto;
   }
   *,
-*::before,
-*::after {
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
@@ -270,6 +270,32 @@ article {
   color: #94d1be;
   transform: translateX(6px) scale(1.1);
   top: 31%;
+}
+
+.link {
+  position: relative;
+  display: inline-block;
+  color: #94d1be;
+  font-weight: lighter;
+  transition: all 0.2s ease;
+  margin: 0px 3px;
+}
+.link:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: none;
+}
+.link:hover {
+  color: rgba(148, 209, 190, 0.85);
+  transition: all 0.2s ease;
+}
+.link:hover::after {
+  background-color: #aa5042;
+  transition: all 0.25s ease-out;
 }
 
 /*# sourceMappingURL=base.css.map */
