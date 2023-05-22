@@ -31,7 +31,7 @@
     "title": "Food ordering app",
     "description": "Small and simple app written in React, as practical excercise, part of the React course I'm attending",
     "usedTech": ["html", "css", "bootstrap", "sass", "javascript", "react"],
-    "infoHandle": "/pages/not-present.html",
+    "infoHandle": "/pages/project_food-ordering-app.html",
     "link": "https://mdjumic-food-order-app.netlify.app/",
     "bgImage": "./ast/img/projects/project_3.png"
   },
