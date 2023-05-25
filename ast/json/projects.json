@@ -3,16 +3,28 @@
     "id": "1",
     "title": "Neopetrol Inzenjering",
     "description": "Company presentation, written from scratch. Implemented live search option for list of projects, company profile pdf on 4 languages available for viewing or download",
-    "usedTech": ["html", "css", "bootstrap", "sass", "javascript"],
+    "usedTech": [
+      "html",
+      "css",
+      "bootstrap",
+      "sass",
+      "javascript"
+    ],
     "infoHandle": "/pages/project_npi.html",
     "link": "https://www.npi.rs",
-    "bgImage": "./ast/img/projects/project_1.png"
+    "bgImage": "./ast/img/projects/npi/project_1.png"
   },
   {
     "id": "2",
     "title": "My First Portfolio",
     "description": "My first portfolio. Done from the free template, heavily modified, but still credited. Made with lots of love.",
-    "usedTech": ["html", "css", "bootstrap", "sass", "javascript"],
+    "usedTech": [
+      "html",
+      "css",
+      "bootstrap",
+      "sass",
+      "javascript"
+    ],
     "infoHandle": "/pages/not-present.html",
     "link": "https://dambus.github.io/port5.1/",
     "bgImage": "./ast/img/projects/project_2.png"
@@ -21,7 +33,13 @@
     "id": "4",
     "title": "Forkify App",
     "description": "Vanilla javascript app displaying food recipes from dedicated API",
-    "usedTech": ["html", "css", "bootstrap", "sass", "javascript"],
+    "usedTech": [
+      "html",
+      "css",
+      "bootstrap",
+      "sass",
+      "javascript"
+    ],
     "infoHandle": "/pages/not-present.html",
     "link": "https://mdjumic-forkify.netlify.app/",
     "bgImage": "./ast/img/projects/project_5.png"
@@ -30,7 +48,14 @@
     "id": "3",
     "title": "Food ordering app",
     "description": "Small and simple app written in React, as practical excercise, part of the React course I'm attending",
-    "usedTech": ["html", "css", "bootstrap", "sass", "javascript", "react"],
+    "usedTech": [
+      "html",
+      "css",
+      "bootstrap",
+      "sass",
+      "javascript",
+      "react"
+    ],
     "infoHandle": "/pages/project_food-ordering-app.html",
     "link": "https://mdjumic-food-order-app.netlify.app/",
     "bgImage": "./ast/img/projects/project_3.png"
@@ -39,10 +64,15 @@
     "id": "5",
     "title": "Precise age calculator",
     "description": "Small and simple app written in Javascript, part of frontendmentor.com challenges. Slick design and cross-device usability",
-    "usedTech": ["html", "css", "bootstrap", "sass", "javascript"],
+    "usedTech": [
+      "html",
+      "css",
+      "bootstrap",
+      "sass",
+      "javascript"
+    ],
     "infoHandle": "/pages/project_age-calc.html",
     "link": "https://mdjumic-age-calculator.netlify.app/",
     "bgImage": "/ast/img/projects/age-calc/age-calc-cover-sm.png"
-  } 
-
+  }
 ]
