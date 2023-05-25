@@ -40,9 +40,9 @@
       "sass",
       "javascript"
     ],
-    "infoHandle": "/pages/not-present.html",
+    "infoHandle": "/pages/project_forkify.html",
     "link": "https://mdjumic-forkify.netlify.app/",
-    "bgImage": "./ast/img/projects/project_5.png"
+    "bgImage": "./ast/img/projects/forkify/forkify_cover.png"
   },
   {
     "id": "3",
