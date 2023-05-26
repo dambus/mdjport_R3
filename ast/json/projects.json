@@ -74,5 +74,19 @@
     "infoHandle": "/pages/project_age-calc.html",
     "link": "https://mdjumic-age-calculator.netlify.app/",
     "bgImage": "/ast/img/projects/age-calc/age-calc-cover-sm.png"
+  },
+  {
+    "id": "6",
+    "title": "Mapty App",
+    "description": "Javascript Single Page Application for logging your running/cyciling activities with real-time interactive map",
+    "usedTech": [
+      "html",
+      "css",
+      "bootstrap",
+      "javascript"
+    ],
+    "infoHandle": "/pages/project_mapty.html",
+    "link": "https://mdjumic-mapty.netlify.app/",
+    "bgImage": "/ast/img/projects/mapty/mapty_small.png"
   }
 ]
