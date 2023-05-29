@@ -25,9 +25,9 @@
       "sass",
       "javascript"
     ],
-    "infoHandle": "/pages/not-present.html",
-    "link": "https://dambus.github.io/port5.1/",
-    "bgImage": "./ast/img/projects/project_2.png"
+    "infoHandle": "/pages/project_first-portfolio.html",
+    "link": "https://dambus.github.io/myPortfolio/",
+    "bgImage": "./ast/img/projects/portfolio/portfolio_showcase.png"
   },
   {
     "id": "4",
@@ -52,7 +52,6 @@
       "html",
       "css",
       "bootstrap",
-      "sass",
       "javascript",
       "react"
     ],
