@@ -1,9 +1,14 @@
-- u header ubaciti ikonice za kafu i kontakt
+- u header ubaciti ikonice za kafu i kontakt ✅
 
 
 - ReadMore (abotu)
-  - napraviti cover image
+  - napraviti cover image ✅
 
 
 
 - Project showcase template
+  - GENERAL - link buttons from modals
+  - mapty
+  - my first portfolio
+
+CV PDF napraviti da izgleda kao sajt
