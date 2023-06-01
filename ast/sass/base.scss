@@ -270,7 +270,7 @@ article {
     transform-origin: bottom;
     transform: translateX(0);
     transition: all 0.25s ease;
-    top: 26%;
+    top: 24%;
   }
 
   &:hover {
@@ -280,7 +280,7 @@ article {
     i {
       color: rgba($tiffany-blue, 1);
       transform: translateX(6px) scale(1.1);
-      top: 31%;
+      top: 25%;
     }
   }
 }

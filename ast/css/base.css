@@ -64,8 +64,8 @@ select {
     scroll-behavior: auto;
   }
   *,
-*::before,
-*::after {
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
@@ -260,7 +260,7 @@ article {
   transform-origin: bottom;
   transform: translateX(0);
   transition: all 0.25s ease;
-  top: 26%;
+  top: 24%;
 }
 .link-btn:hover {
   transition: all 0.2s;
@@ -269,7 +269,7 @@ article {
 .link-btn:hover i {
   color: #94d1be;
   transform: translateX(6px) scale(1.1);
-  top: 31%;
+  top: 25%;
 }
 
 .link {
