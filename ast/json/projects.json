@@ -1,15 +1,9 @@
- data = [
+(data = [
   {
     "id": "1",
     "title": "Neopetrol Inzenjering",
     "description": "Company presentation, written from scratch. Implemented live search option for list of projects, company profile pdf on 4 languages available for viewing or download",
-    "usedTech": [
-      "html",
-      "css",
-      "bootstrap",
-      "sass",
-      "javascript"
-    ],
+    "usedTech": ["html", "css", "bootstrap", "sass", "javascript"],
     "infoHandle": "/pages/project_npi.html",
     "link": "https://www.npi.rs",
     "bgImage": "./ast/img/projects/npi/project_1.png"
@@ -18,13 +12,7 @@
     "id": "2",
     "title": "My First Portfolio",
     "description": "My first portfolio. Done from the free template, heavily modified, but still credited. Made with lots of love.",
-    "usedTech": [
-      "html",
-      "css",
-      "bootstrap",
-      "sass",
-      "javascript"
-    ],
+    "usedTech": ["html", "css", "bootstrap", "sass", "javascript"],
     "infoHandle": "/pages/project_first-portfolio.html",
     "link": "https://dambus.github.io/myPortfolio/",
     "bgImage": "./ast/img/projects/portfolio/portfolio_showcase.png"
@@ -33,13 +21,7 @@
     "id": "4",
     "title": "Forkify App",
     "description": "Vanilla javascript app displaying food recipes from dedicated API",
-    "usedTech": [
-      "html",
-      "css",
-      "bootstrap",
-      "sass",
-      "javascript"
-    ],
+    "usedTech": ["html", "css", "bootstrap", "sass", "javascript"],
     "infoHandle": "/pages/project_forkify.html",
     "link": "https://mdjumic-forkify.netlify.app/",
     "bgImage": "./ast/img/projects/forkify/forkify_cover.png"
@@ -48,13 +30,7 @@
     "id": "3",
     "title": "Food ordering app",
     "description": "Small and simple app written in React, as practical excercise, part of the React course I'm attending",
-    "usedTech": [
-      "html",
-      "css",
-      "bootstrap",
-      "javascript",
-      "react"
-    ],
+    "usedTech": ["html", "css", "bootstrap", "javascript", "react"],
     "infoHandle": "/pages/project_food-ordering-app.html",
     "link": "https://mdjumic-food-order-app.netlify.app/",
     "bgImage": "./ast/img/projects/project_3.png"
@@ -63,13 +39,7 @@
     "id": "5",
     "title": "Precise age calculator",
     "description": "Small and simple app written in Javascript, part of frontendmentor.com challenges. Slick design and cross-device usability",
-    "usedTech": [
-      "html",
-      "css",
-      "bootstrap",
-      "sass",
-      "javascript"
-    ],
+    "usedTech": ["html", "css", "bootstrap", "sass", "javascript"],
     "infoHandle": "/pages/project_age-calc.html",
     "link": "https://mdjumic-age-calculator.netlify.app/",
     "bgImage": "/ast/img/projects/age-calc/age-calc-cover-sm.png"
@@ -78,14 +48,18 @@
     "id": "6",
     "title": "Mapty App",
     "description": "Javascript Single Page Application for logging your running/cyciling activities with real-time interactive map",
-    "usedTech": [
-      "html",
-      "css",
-      "bootstrap",
-      "javascript"
-    ],
+    "usedTech": ["html", "css", "bootstrap", "javascript"],
     "infoHandle": "/pages/project_mapty.html",
     "link": "https://mdjumic-mapty.netlify.app/",
     "bgImage": "/ast/img/projects/mapty/mapty_small.png"
+  },
+  {
+    "id": "7",
+    "title": "usePopcorn",
+    "description": "React povered application for searching IMDB open database via OMDb API with feature to create list of watched movies and user rating",
+    "usedTech": ["html", "css", "bootstrap", "javascript", "react"],
+    "infoHandle": "/pages/project_usepopcorn.html",
+    "link": "https://mdjumic-usepopcorn.netlify.app",
+    "bgImage": "/ast/img/projects/usepopcorn/project_7_small.png"
   }
-]
+])
