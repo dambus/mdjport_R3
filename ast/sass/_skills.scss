@@ -48,3 +48,11 @@
   @extend %badge;
   background-color: yellowgreen;
 }
+
+.tailwind-icon {
+  display: inline-block;
+  height: 3rem;
+  @include md {
+    height: 6rem;
+  }
+}
