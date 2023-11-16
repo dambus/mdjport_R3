@@ -59,7 +59,7 @@
     "description": "React povered application for searching IMDB open database via OMDb API with feature to create list of watched movies and user rating",
     "usedTech": ["html", "css", "bootstrap", "javascript", "react"],
     "infoHandle": "/pages/project_usepopcorn.html",
-    "link": "https://mdjumic-usepopcorn.netlify.app",
-    "bgImage": "/ast/img/projects/usepopcorn/project_7_small.png"
+    "link": "https://mdjumic-mypopcorn.netlify.app",
+    "bgImage": "/ast/img/projects/usepopcorn/project_7a_2.png"
   }
 ])
